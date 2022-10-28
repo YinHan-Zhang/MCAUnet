@@ -101,4 +101,4 @@ When training, we suggest to train the model twice to verify wheather the random
 
 
 ## Contact 
-Haonan Wang ([haonan1wang@gmail.com](haonan1wang@gmail.com))
+YinHan Zhang ([1513032551@qq.com](1513032551@qq.com))
