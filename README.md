@@ -2,8 +2,8 @@
 
 
 This repo is the official implementation of
-["MCAUNet: Rethinking the Skip Connections in U-Net from
-a Channel-wise Perspective with Transformer"](https://arxiv.org/abs/2109.04335)
+["Survival analysis of patients with liver cirrhosis 
+based on deep learning to quantify body composition"](https://arxiv.org/abs/2109.04335)
 
 We propose a Channel Transformer module (CTrans) and use it to 
 replace the skip connections in original U-Net, thus we name it "MCAU-Net".
@@ -20,12 +20,9 @@ pip install -r requirements.txt
 
 
 ### 1. Data Preparation
-#### 1.1. GlaS and MoNuSeg Datasets
-The original data can be downloaded in following links:
-* MoNuSeG Dataset - [Link (Original)](https://monuseg.grand-challenge.org/Data/)
-* GLAS Dataset - [Link (Original)](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest)
 
-Then prepare the datasets in the following format for easy use of the code:
+
+Prepare the datasets in the following format for easy use of the code:
 ```angular2html
 ├── datasets
     |
@@ -40,10 +37,7 @@ Then prepare the datasets in the following format for easy use of the code:
     │   └── labelcol
     └
 ```
-#### 1.2. Synapse Dataset
-The Synapse dataset we used is provided by TransUNet's authors.
-Please go to [https://github.com/Beckschen/TransUNet/blob/main/datasets/README.md](https://github.com/Beckschen/TransUNet/blob/main/datasets/README.md)
-for details.
+
 
 ### 2. Training
 As mentioned in the paper, we introduce two strategies 
@@ -104,21 +98,6 @@ When training, we suggest to train the model twice to verify wheather the random
 * [MedT](https://github.com/jeya-maria-jose/Medical-Transformer)
 
 
-
-## Citations
-
-
-If this code is helpful for your study, please cite:
-```
-@misc{wang2021uctransnet,
-      title={UCTransNet: Rethinking the Skip Connections in U-Net from a Channel-wise Perspective with Transformer}, 
-      author={Haonan Wang and Peng Cao and Jiaqi Wang and Osmar R. Zaiane},
-      year={2021},
-      eprint={2109.04335},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
 
 
 ## Contact 
