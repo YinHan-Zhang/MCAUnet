@@ -28,26 +28,17 @@ The original data can be downloaded in following links:
 Then prepare the datasets in the following format for easy use of the code:
 ```angular2html
 ├── datasets
-    ├── GlaS
-    │   ├── Test_Folder
-    │   │   ├── img
-    │   │   └── labelcol
-    │   ├── Train_Folder
-    │   │   ├── img
-    │   │   └── labelcol
-    │   └── Val_Folder
-    │       ├── img
-    │       └── labelcol
-    └── MoNuSeg
-        ├── Test_Folder
-        │   ├── img
-        │   └── labelcol
-        ├── Train_Folder
-        │   ├── img
-        │   └── labelcol
-        └── Val_Folder
-            ├── img
-            └── labelcol
+    |
+    │── Test_Folder
+    │   ├── img
+    │   └──labelcol
+    │── Train_Folder
+    │   ├── img
+    │   └── labelcol
+    │── Val_Folder
+    │   ├── img
+    │   └── labelcol
+    └
 ```
 #### 1.2. Synapse Dataset
 The Synapse dataset we used is provided by TransUNet's authors.
@@ -56,7 +47,7 @@ for details.
 
 ### 2. Training
 As mentioned in the paper, we introduce two strategies 
-to optimize UCTransNet.
+to optimize MCAUNet.
 
 The first step is to change the settings in ```Config.py```,
 all the configurations including learning rate, batch size and etc. are 
